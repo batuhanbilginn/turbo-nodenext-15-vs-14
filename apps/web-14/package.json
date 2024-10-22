@@ -1,12 +1,13 @@
 {
-  "name": "web",
+  "name": "web-14",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf node_modules .next"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
